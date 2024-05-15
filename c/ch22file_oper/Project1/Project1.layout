@@ -1,0 +1,21 @@
+[
+    {
+        "caretX": 1,
+        "caretY": 1,
+        "filename": "C:/git/codebase/c/ch22file_oper/Project1/test.txt",
+        "focused": true,
+        "isOpen": true,
+        "leftChar": 1,
+        "topLine": 1
+    },
+    {
+        "caretX": 16,
+        "caretY": 19,
+        "filename": "C:/git/codebase/c/ch22file_oper/Project1/main.c",
+        "focused": false,
+        "isOpen": true,
+        "leftChar": 1,
+        "order": 0,
+        "topLine": 1
+    }
+]
