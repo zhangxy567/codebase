@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main()
 {
-	FILE * fp =fopen("test.txt","w");
+	FILE * fp =fopen("test.txt","r");
 	
 	if(fp == NULL)
 	{
@@ -13,11 +13,19 @@ int main()
 	//fputc('b',fp);
 	//fputc('c',fp);
 	
-	char ch;
-	for(ch = 'a'; ch<='z' ;ch++)
+	
+	int ch ;
+	while(  (  ch=fgetc(fp)  )  != EOF )
 	{
-		fputc(ch,fp);
+		printf("%c",ch);
 	}
+
+	
+	//char ch;
+	//for(ch = 'a'; ch<='z' ;ch++)
+	//{
+	//	fputc(ch,fp);
+	//}
 	
 	fclose(fp);
 	return 0;
