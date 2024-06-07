@@ -1,7 +1,8 @@
 #define _CRT_SECURE_NO_WARNINGS 1
 #include <stdio.h>
 
-int main() {
+int main() 
+{
     int numbers[10];  // 用于存储输入的10个整数
     int i, max;
 
