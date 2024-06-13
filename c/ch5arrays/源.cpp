@@ -94,34 +94,3 @@ using namespace std;
 // (3)一旦数组创建,数组大小也就不可以变化了
 // (4)使用变长数组不可初始化数组值,只能赋值
 // (5)想要学习动态数组长度变化就要学习更高级的malloc了
-// 
-// 
-// 
-// 
-// 
-//
-int main()
-{
-	////int score[5]={ 1,2,3,4,5 };
-	//char score[5]={ 1,2,3,4,5 };
-	////for(int i=0;i<=4;i++)
-	////printf("%d",score[i]);
-	////for (int i = 0; i <= 4; i++)
-	////	printf("%p\n", &score);
-	//for (int i = 0; i <= 4; i++)
-	//	printf("%x\n", &score[i]);
-
-
-	//int arr1[3][5] = { {1,2,3},{4,5},{6,7} };
-	//int i = 0;
-	//for (int i = 0; i <= 2; i++)
-	//{
-	//	int j = 0;
-	//	for (int j = 0; j <= 4; j++)
-	//	{
-	//		printf("%#x\n", &arr1[i][j]);
-	//	}
-	//}
-
-	return 0;
-}
